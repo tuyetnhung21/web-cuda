@@ -1,0 +1,22 @@
+header
+	&.bg-dlbg
+		position: fixed
+		width: 100%
+		background: #8e44ad 
+	.navbar
+		+pad(null 0)
+		background: #8e44ad
+	.navbar-brand
+		img
+			max-height: 2rem
+	+media-breakpoint-up(md)
+		.navbar-brand
+			img 
+				max-height: 3rem
+	.navbar-nav
+		.nav-item
+			.nav-link
+				color: white
+				text-transform: uppercase
+				&:hover
+					background: darken(#8e44ad,20%)

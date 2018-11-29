@@ -1,0 +1,72 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.home-slider
+		.container
+			.row
+				.col-md-7.mx-auto.text-center
+					h1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ipsam nesciunt voluptate necessitatibus magnam incidunt. 
+					input.click(type="button" value="WORK WITH US")
+	section.home-news
+		.container
+			.row
+				.col-lg-7.mx-auto.text-center
+					h2
+						p SERVICE WE PROVICE
+						span
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima a magni sequi ut accusamus laudantium aut debitis blanditiis 
+			.row.item.mx-auto.text-center
+				.col-lg-3.hover
+					.item.img
+						img(src="./img/item1.png", alt="")
+					h3 BRANDING
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem sint eius qui maiores. Accusantium voluptatem
+				.col-lg-3.hover
+					.item.img
+						img(src="./img/item2.png", alt="")
+					h3 BRANDING
+					p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi iusto odit sequi illo distinctio facilis
+				.col-lg-3.hover
+					.item.img
+						img(src="./img/item3.png", alt="")
+					h3 DESIGN
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusantium maiores ipsam
+				.col-lg-3.hover
+					.item.img
+						img(src="./img/item4.png", alt="")
+					h3 DEVELOPMENT
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente dolores blanditiis quaerat sed
+	section.home-service
+		.container
+			.row
+				.col-lg-7.mx-auto.text-center
+					h2
+						p MEET OUR BEAUTIFUL TEAM
+						span
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+			.row.box
+				.col-lg-3.hover
+					.item-img
+						img(src="./img/anh1.png", alt="")
+					h3 BRANDING
+					p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem sint eius qui maiores. Accusantium voluptatem
+				.col-lg-3.hover
+					.item-img
+						img(src="./img/anh2.png", alt="")
+					h3 BRANDING
+					p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi iusto odit sequi illo distinctio facilis
+				.col-lg-3.hover
+					.item-img
+						img(src="./img/anh3.png", alt="")
+					h3 DESIGN
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa accusantium maiores ipsam
+				.col-lg-3.hover
+					.item-img
+						img(src="./img/anh4.png", alt="")
+					h3 DEVELOPMENT
+					p Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente dolores blanditiis quaerat sed
